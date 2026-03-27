@@ -1,3 +1,5 @@
+> **📅 Project Period:** Sep 2025 – Oct 2025 &nbsp;|&nbsp; **Status:** Completed &nbsp;|&nbsp; **Author:** [Bharghava Ram Vemuri](https://github.com/bharghavaram)
+
 # Autonomous Research Agent
 
 > Self-directed AI research agent that browses the web, reads ArXiv papers, and generates comprehensive research reports
