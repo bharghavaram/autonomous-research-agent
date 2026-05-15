@@ -15,7 +15,11 @@
 
 ---
 
-## 🎯 Problem Statement
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bharghavaram/autonomous-research-agent/main/docs/images/demo.svg" alt="autonomous-research-agent demo" width="820"/>
+</div>
+
+--- 🎯 Problem Statement
 
 Researchers and analysts spend 4–8 hours per topic manually searching papers, reading abstracts, cross-referencing sources, and writing summaries. The information is fragmented across ArXiv, academic websites, and news. This autonomous agent takes a research question, decomposes it into sub-queries, searches ArXiv API and the web via Playwright, reads and scores source relevance, synthesises findings with chain-of-thought reasoning, and produces a structured research report in under 5 minutes.
 
