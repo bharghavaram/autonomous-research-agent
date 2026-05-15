@@ -1,0 +1,41 @@
+<svg width="820" height="364" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 364">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+  <!-- Window background -->
+  <rect width="820" height="364" rx="12" fill="url(#grad)" stroke="#313244" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect width="820" height="40" rx="12" fill="#181825"/>
+  <rect y="30" width="820" height="10" fill="#181825"/>
+  <!-- Traffic lights -->
+  <circle cx="22" cy="20" r="6" fill="#f38ba8"/>
+  <circle cx="42" cy="20" r="6" fill="#f9e2af"/>
+  <circle cx="62" cy="20" r="6" fill="#a6e3a1"/>
+  <!-- Title text -->
+  <text x="410" y="25" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#cdd6f4">Autonomous Research Agent — Live API Response</text>
+  <!-- Divider -->
+  <line x1="0" y1="40" x2="820" y2="40" stroke="#313244" stroke-width="1"/>
+  <!-- Endpoint line -->
+  <rect x="16" y="44" width="788" height="20" rx="4" fill="#1e1e2e" opacity="0.5"/>
+  <text x="24" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#89dceb">POST</text>
+  <text x="66" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#a6e3a1">http://localhost:8000/research/quick</text>
+  <text x="746" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" fill="#a6e3a1">200 OK ✓</text>
+  <!-- Response body -->
+  <text x="24" y="60" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">{</text>
+    <text x="24" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;report&quot;</text><text x="102" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: {</text>
+    <text x="24" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;executive_summary&quot;</text><text x="203.4" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="219" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;RAG fails 4 ways: retrieval mismatch, context overflow...&quot;</text><text x="679.2" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;key_findings&quot;</text><text x="164.4" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: [</text>
+    <text x="24" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">      </text><text x="70.8" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Lost-in-middle: LLMs ignore middle context (Liu et al., 2023)&quot;</text><text x="562.1999999999999" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">      </text><text x="70.8" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Semantic search fails for factual/numerical queries&quot;</text>
+    <text x="24" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">    ],</text>
+    <text x="24" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;research_gaps&quot;</text><text x="172.2" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: [</text><text x="195.6" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;No standardised RAG benchmark&quot;</text><text x="437.4" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">],</text>
+    <text x="24" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;sources_used&quot;</text><text x="164.4" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="180" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">8</text><text x="187.8" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;arxiv_papers&quot;</text><text x="164.4" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="180" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">5</text><text x="187.8" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">    &quot;web_sources&quot;</text><text x="156.6" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="172.2" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">3</text>
+    <text x="24" y="280" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">  },</text>
+    <text x="24" y="300" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;duration_seconds&quot;</text><text x="180" y="300" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="195.6" y="300" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">47</text>
+    <text x="24" y="320" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">}</text>
+</svg>
